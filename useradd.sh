@@ -1,4 +1,6 @@
-sudo useradd $username1
+sudo useradd -d /home/$username1  $username1
+
+sudo useradd -d /home/$username2 $username2
 
 sudo useradd $username2
 
