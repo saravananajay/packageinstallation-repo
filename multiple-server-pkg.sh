@@ -1,8 +1,9 @@
-softwarename1=$1
-softwarename2=$2
 
 for servername in `cat serverip.txt`
 do
+softwarename1=$1
+softwarename2=$2
+
 echo $softwarename1
 echo $softwarename2
 echo "------SERVER-IP-$servername-------"
