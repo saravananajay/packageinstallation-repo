@@ -10,6 +10,14 @@ echo "------SERVER-IP-$servername-------"
 #ssh root@$servername '
 ssh -o StrictHostKeyChecking=no  root@$servername  '
 
+echo "----printing variable---"
+
+echo $softwarename1
+
+echo $softwarename2
+
+
+
 sudo yum install $softwarename1 -y
 sudo yum install $softwarename2 -y
 '
